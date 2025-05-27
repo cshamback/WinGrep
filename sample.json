@@ -1,0 +1,37 @@
+[
+    {
+        "word": "example",
+        "pages": [
+            {
+                "url": "~/Downloads/exampleText",
+                "freq": "4"
+            },
+            {
+                "url": "~/Downloads/exampleForm",
+                "freq": "61"
+            }
+        ]
+    },
+    {
+        "word": "sample",
+        "pages": [
+            {
+                "url": "~/Desktop",
+                "freq": "3"
+            },
+            {
+                "url": "~/Desktop",
+                "freq": "3"
+            }
+        ]
+    },
+    {
+        "word": "Katherine",
+        "pages": [
+            {
+                "url": "~/Desktop/Images/LOML/Katherine.png",
+                "freq": "1"
+            }
+        ]
+    }
+]
