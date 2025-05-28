@@ -38,7 +38,7 @@
         "word": "quick",
         "pages": [
             {
-                "url": "~/Downloads/sampleText.txt",
+                "path": "~/Downloads/sampleText.txt",
                 "freq": 1
             }
         ]
@@ -47,7 +47,7 @@
         "word": "brown",
         "pages": [
             {
-                "url": "~/Downloads/sampleText.txt",
+                "path": "~/Downloads/sampleText.txt",
                 "freq": 1
             }
         ]
@@ -56,8 +56,12 @@
         "word": "fox",
         "pages": [
             {
-                "url": "~/Downloads/sampleText.txt",
+                "path": "~/Downloads/sampleText.txt",
                 "freq": 2
+            },
+            {
+                "path": "~/Downloads/foxPic.png",
+                "freq": 1
             }
         ]
     },
@@ -65,7 +69,7 @@
         "word": "jumped",
         "pages": [
             {
-                "url": "~/Downloads/sampleText.txt",
+                "path": "~/Downloads/sampleText.txt",
                 "freq": 1
             }
         ]
@@ -74,7 +78,7 @@
         "word": "lazy",
         "pages": [
             {
-                "url": "~/Downloads/sampleText.txt",
+                "path": "~/Downloads/sampleText.txt",
                 "freq": 1
             }
         ]
@@ -83,8 +87,16 @@
         "word": "dog",
         "pages": [
             {
-                "url": "~/Downloads/sampleText.txt",
+                "path": "~/Downloads/sampleText.txt",
                 "freq": 2
+            }, 
+            {
+                "path": "~/Documents/dogVetBill.pdf",
+                "freq": 3
+            }, 
+            {
+                "path": "~/Downloads/dog.txt",
+                "freq": 45
             }
         ]
     },
@@ -92,7 +104,7 @@
         "word": "ate",
         "pages": [
             {
-                "url": "~/Downloads/sampleText.txt",
+                "path": "~/Downloads/sampleText.txt",
                 "freq": 1
             }
         ]

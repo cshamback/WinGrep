@@ -14,6 +14,10 @@ class Indexer:
 
     # locate all human-readable words and update the JSON; uses NLTK 
     def analyzeText(self, text, filepath):
+        # TODO: get text using filepath; remove text parameter 
+        # TODO: add functionality to get words from a non-sentence string 
+        # TODO: add isReadable check
+
         # prepare text (remove stopwords and non-alphanumeric characters)
         text = text.lower()
         text = removeAN(text)    

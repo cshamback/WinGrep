@@ -31,7 +31,7 @@ def readJSON(path):
 
 # create JSON string for a single word given its frequency and filepath
 def createJSONWord(word: str, freq: int, path: str):
-    return {"word": word, "pages": [{"url": path, "freq": freq}]}
+    return {"word": word, "pages": [{"path": path, "freq": freq}]}
 
 # add a new word to the existing JSON data: either add a new word to the array, or add to the Pages array of an existing word 
 # can use this to overwrite the old copy of data with the new one, or create a new version separately
@@ -54,6 +54,14 @@ def addWord(data, newWord):
         
     return data 
 
+# searches for a string in a JSON list; returns all its data
+def findWordInJSON(data: list, word: str):
+    for item in data: # creates a copy, not a direct reference 
+        currWord = item["word"]
+        if currWord == word: 
+            return item
+    return None
+
 """
 # Example addWord
 newWord = {"word": "Katherine", "pages": [{"path": "~/Desktop/Images/LOML/Katherine.png", "freq": "1"}]}
@@ -71,6 +79,14 @@ def bfs(root):
     dirs = np.empty(1, str)
 
     print(dirs)
+
+def printList(lst: list):
+    for item in lst: 
+        print(item)
+
+def printDict(dict):
+    for key, value in dict.items():
+        print(f"{key}: {value}")
 
 #=============================================================================================================================================================================
 # NLTK -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
