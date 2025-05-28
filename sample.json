@@ -3,11 +3,11 @@
         "word": "example",
         "pages": [
             {
-                "url": "~/Downloads/exampleText",
+                "path": "~/Downloads/exampleText",
                 "freq": "4"
             },
             {
-                "url": "~/Downloads/exampleForm",
+                "path": "~/Downloads/exampleForm",
                 "freq": "61"
             }
         ]
@@ -16,11 +16,11 @@
         "word": "sample",
         "pages": [
             {
-                "url": "~/Desktop",
+                "path": "~/Desktop",
                 "freq": "3"
             },
             {
-                "url": "~/Desktop",
+                "path": "~/Desktop",
                 "freq": "3"
             }
         ]
@@ -29,8 +29,71 @@
         "word": "Katherine",
         "pages": [
             {
-                "url": "~/Desktop/Images/LOML/Katherine.png",
+                "path": "~/Desktop/Images/LOML/Katherine.png",
                 "freq": "1"
+            }
+        ]
+    },
+    {
+        "word": "quick",
+        "pages": [
+            {
+                "url": "~/Downloads/sampleText.txt",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "brown",
+        "pages": [
+            {
+                "url": "~/Downloads/sampleText.txt",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "fox",
+        "pages": [
+            {
+                "url": "~/Downloads/sampleText.txt",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "jumped",
+        "pages": [
+            {
+                "url": "~/Downloads/sampleText.txt",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "lazy",
+        "pages": [
+            {
+                "url": "~/Downloads/sampleText.txt",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "dog",
+        "pages": [
+            {
+                "url": "~/Downloads/sampleText.txt",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "ate",
+        "pages": [
+            {
+                "url": "~/Downloads/sampleText.txt",
+                "freq": 1
             }
         ]
     }

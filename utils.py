@@ -1,4 +1,10 @@
 import json
+import numpy as np
+import nltk 
+import re
+
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 
 #=============================================================================================================================================================================
 # JSON -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -23,6 +29,10 @@ def readJSON(path):
         data = json.load(infile)
     return data
 
+# create JSON string for a single word given its frequency and filepath
+def createJSONWord(word: str, freq: int, path: str):
+    return {"word": word, "pages": [{"url": path, "freq": freq}]}
+
 # add a new word to the existing JSON data: either add a new word to the array, or add to the Pages array of an existing word 
 # can use this to overwrite the old copy of data with the new one, or create a new version separately
 def addWord(data, newWord):
@@ -46,7 +56,50 @@ def addWord(data, newWord):
 
 """
 # Example addWord
-newWord = {"word": "Katherine", "pages": [{"url": "~/Desktop/Images/LOML/Katherine.png", "freq": "1"}]}
+newWord = {"word": "Katherine", "pages": [{"path": "~/Desktop/Images/LOML/Katherine.png", "freq": "1"}]}
 data = addWord(readJSON("sample.json"), newWord)
 writeJSON(data)
 """
+
+#=============================================================================================================================================================================
+# DSA ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=============================================================================================================================================================================
+
+# Breadth-First Search used by crawler to traverse all dicts
+def bfs(root):
+    currDir = root
+    dirs = np.empty(1, str)
+
+    print(dirs)
+
+#=============================================================================================================================================================================
+# NLTK -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#=============================================================================================================================================================================
+
+# remove all non-alphanumeric chars
+def removeAN(text):
+    return re.sub(r'[^\w\s]', '', text) # sub non-alphanumeric chars in string with '' (nothing)
+
+# remove all stopwords using NLTK (Natural Language Toolkit)
+def removeSW(text):
+    # use NLTK to only get useful words (remove stop words)
+    try:
+        nltk.data.find('tokenizers/punkt_tab')
+    except LookupError:
+        nltk.download('punkt_tab')
+    try: 
+        nltk.data.find('corpora/stopwords')
+    except LookupError: 
+        nltk.download('stopwords')
+    
+    stopWords = set(stopwords.words('english'))
+    wordTokens = word_tokenize(text)
+
+    result = [] 
+
+    for w in wordTokens:
+        if w not in stopWords:
+            result.append(w)
+
+    print("Result: ", result)
+    return result
