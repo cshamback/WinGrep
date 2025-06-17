@@ -28,6 +28,7 @@ class QueryEngine:
             wordData = findWordInJSON(self.json, word)
             if wordData != None: 
                 # TODO: change this to format [[path, (word, frequency), (word, frequency), ...], ...]
+                
                 results.append(wordData) # creates a list of only words that are in the search
         return results
 

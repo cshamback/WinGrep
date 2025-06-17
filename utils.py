@@ -2,6 +2,7 @@ import json
 import numpy as np
 import nltk 
 import re
+import os
 
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -74,11 +75,25 @@ writeJSON(data)
 #=============================================================================================================================================================================
 
 # Breadth-First Search used by crawler to traverse all dicts
-def bfs(root):
-    currDir = root
-    dirs = np.empty(1, str)
+# target can be file or directory 
+def bfs(root, target):
+    # get list of children of root node
+    childrenList = os.listdir(root)
 
-    print(dirs)
+    for dirPath, subDirs, fileNames in os.walk(root):
+        print(f"Directory: {dirPath}")
+        if(target in subDirs): 
+            print(f"Target found: {dirPath}/{target}")
+            return dirPath
+
+        for filename in fileNames: 
+            print(f"File: {filename}")
+
+            if(filename == target):
+                print(f"Target found in folder: {dirPath} Full path: {dirPath}/{target}")
+                return dirPath
+
+    return None
 
 def printList(lst: list):
     for item in lst: 
@@ -119,3 +134,9 @@ def removeSW(text):
 
     print("Result: ", result)
     return result
+
+print("Attempting BFS")
+bfs("Home", "vetBill.txt")
+
+print("Attempting BFS")
+bfs("Home", "Downloads")
