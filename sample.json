@@ -1,194 +1,1665 @@
 [
     {
+        "word": "import",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 7
+            }
+        ]
+    },
+    {
+        "word": "json",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 16
+            }
+        ]
+    },
+    {
+        "word": "numpy",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "np",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "nltk",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 4
+            }
+        ]
+    },
+    {
+        "word": "os",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "nltkcorpus",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "stopwords",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 4
+            }
+        ]
+    },
+    {
+        "word": "nltktokenize",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "word_tokenize",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "write",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "file",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 7
+            }
+        ]
+    },
+    {
+        "word": "def",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 10
+            }
+        ]
+    },
+    {
+        "word": "writejsondata",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "jsonobj",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "jsondumpsdata",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "indent4",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "converts",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "python",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "object",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "jsonformatted",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "string",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 4
+            }
+        ]
+    },
+    {
+        "word": "printjsonobj",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "ifjsonobj",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "try",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 4
+            }
+        ]
+    },
+    {
+        "word": "opensamplejson",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "w",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 3
+            }
+        ]
+    },
+    {
+        "word": "outfile",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "outfilewritejsonobj",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "except",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 6
+            }
+        ]
+    },
+    {
+        "word": "fileexistserror",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printsamplejson",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "already",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "exists",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printunable",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "else",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printsuccess",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "written",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "read",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "readjsonpath",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "openpath",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "r",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "infile",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "data",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 8
+            }
+        ]
+    },
+    {
+        "word": "jsonloadinfile",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printdata",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "found",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 4
+            }
+        ]
+    },
+    {
+        "word": "readjson",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "return",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 11
+            }
+        ]
+    },
+    {
+        "word": "jsonjsondecodeerror",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printjson",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "empty",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "please",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "put",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "pair",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "square",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "brackets",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "exception",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "e",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "printferror",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "path",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 7
+            }
+        ]
+    },
+    {
+        "word": "create",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "single",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "word",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 14
+            }
+        ]
+    },
+    {
+        "word": "given",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "frequency",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "filepath",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "createjsonwordword",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "str",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 3
+            }
+        ]
+    },
+    {
+        "word": "freq",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 4
+            }
+        ]
+    },
+    {
+        "word": "int",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "pages",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 3
+            }
+        ]
+    },
+    {
+        "word": "add",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 5
+            }
+        ]
+    },
+    {
+        "word": "new",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 6
+            }
+        ]
+    },
+    {
+        "word": "existing",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 4
+            }
+        ]
+    },
+    {
+        "word": "either",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "array",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 3
+            }
+        ]
+    },
+    {
+        "word": "use",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "overwrite",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "old",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "copy",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "one",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "version",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "separately",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "addworddata",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "newword",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 4
+            }
+        ]
+    },
+    {
+        "word": "get",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 3
+            }
+        ]
+    },
+    {
+        "word": "always",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "value",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 3
+            }
+        ]
+    },
+    {
+        "word": "key",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "singleword",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 3
+            }
+        ]
+    },
+    {
+        "word": "newwordword",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printfsingleword",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "search",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "entire",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "existingjsonword",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "findwordinjsondata",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "ifexistingjsonword",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "none",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 3
+            }
+        ]
+    },
+    {
+        "word": "printdid",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "find",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "jsonword",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "brand",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "dictionary",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "jsonarr",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "readjsonsamplejson",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "automatically",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "converted",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "dicts",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "jsonarrappendnewword",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "writejsonjsonarr",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "print",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "searches",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "list",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 3
+            }
+        ]
+    },
+    {
+        "word": "returns",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "item",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 3
+            }
+        ]
+    },
+    {
+        "word": "creates",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "direct",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "reference",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "currword",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "itemword",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
         "word": "example",
         "pages": [
             {
-                "path": "~/Downloads/exampleText",
-                "freq": "4"
-            },
-            {
-                "path": "~/Downloads/exampleForm",
-                "freq": "61"
-            }
-        ]
-    },
-    {
-        "word": "sample",
-        "pages": [
-            {
-                "path": "~/Desktop",
-                "freq": "3"
-            },
-            {
-                "path": "~/Desktop",
-                "freq": "3"
-            }
-        ]
-    },
-    {
-        "word": "Katherine",
-        "pages": [
-            {
-                "path": "~/Desktop/Images/LOML/Katherine.png",
-                "freq": "1"
-            }
-        ]
-    },
-    {
-        "word": "quick",
-        "pages": [
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
+                "path": "/workspaces/WinGrep/utils.py",
                 "freq": 1
             }
         ]
     },
     {
-        "word": "brown",
+        "word": "addword",
         "pages": [
             {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
+                "path": "/workspaces/WinGrep/utils.py",
                 "freq": 1
             }
         ]
     },
     {
-        "word": "fox",
+        "word": "katherine",
         "pages": [
             {
-                "path": "~/Downloads/sampleText.txt",
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "desktopimageslomlkatherinepng",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "1",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "addwordreadjsonsamplejson",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "dsa",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "breadthfirst",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "used",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "crawler",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "traverse",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "currently",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "finds",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "directory",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "bfsroot",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "target",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
                 "freq": 2
-            },
+            }
+        ]
+    },
+    {
+        "word": "dirpath",
+        "pages": [
             {
-                "path": "~/Downloads/foxPic.png",
-                "freq": 1
-            },
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 5
+            }
+        ]
+    },
+    {
+        "word": "subdirs",
+        "pages": [
             {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 2
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 2
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
+                "path": "/workspaces/WinGrep/utils.py",
                 "freq": 2
             }
         ]
     },
     {
-        "word": "jumped",
+        "word": "filenames",
         "pages": [
             {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            }
-        ]
-    },
-    {
-        "word": "lazy",
-        "pages": [
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            }
-        ]
-    },
-    {
-        "word": "dog",
-        "pages": [
-            {
-                "path": "~/Downloads/sampleText.txt",
+                "path": "/workspaces/WinGrep/utils.py",
                 "freq": 2
-            },
+            }
+        ]
+    },
+    {
+        "word": "oswalkroot",
+        "pages": [
             {
-                "path": "~/Documents/dogVetBill.pdf",
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printfdirectory",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "iftarget",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printftarget",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "dirpathtarget",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "filename",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "printffile",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "iffilename",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "folder",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "full",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printlistlst",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "lst",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printitem",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printdictdict",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "dictitems",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printfkey",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "remove",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
                 "freq": 3
-            },
+            }
+        ]
+    },
+    {
+        "word": "nonalphanumeric",
+        "pages": [
             {
-                "path": "~/Downloads/dog.txt",
-                "freq": 45
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 2
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 2
-            },
-            {
-                "path": "~/Downloads/sampleText.txt",
+                "path": "/workspaces/WinGrep/utils.py",
                 "freq": 2
             }
         ]
     },
     {
-        "word": "ate",
+        "word": "chars",
         "pages": [
             {
-                "path": "~/Downloads/sampleText.txt",
-                "freq": 1
-            },
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "removeantext",
+        "pages": [
             {
-                "path": "~/Downloads/sampleText.txt",
+                "path": "/workspaces/WinGrep/utils.py",
                 "freq": 1
-            },
+            }
+        ]
+    },
+    {
+        "word": "resubrws",
+        "pages": [
             {
-                "path": "~/Downloads/sampleText.txt",
+                "path": "/workspaces/WinGrep/utils.py",
                 "freq": 1
-            },
+            }
+        ]
+    },
+    {
+        "word": "text",
+        "pages": [
             {
-                "path": "~/Downloads/sampleText.txt",
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "sub",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "nothing",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "using",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "natural",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "language",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "toolkit",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "removeswtext",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "useful",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "words",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "stop",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "nltkdatafindtokenizerspunkt_tab",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "lookuperror",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "nltkdownloadpunkt_tab",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "nltkdatafindcorporastopwords",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "nltkdownloadstopwords",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "setstopwordswordsenglish",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "wordtokens",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 2
+            }
+        ]
+    },
+    {
+        "word": "word_tokenizetext",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "result",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 3
+            }
+        ]
+    },
+    {
+        "word": "resultappendw",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printresult",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "bfshome",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "toadtxt",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/utils.py",
                 "freq": 1
             }
         ]

@@ -13,22 +13,32 @@ from nltk.tokenize import word_tokenize
 
 # write JSON to a .json file
 def writeJSON(data):
-    jsonObj = json.dumps(data, indent=4)
-    try: 
-        with open("sample.json", "w") as outfile: 
-            outfile.write(jsonObj)
-    except FileExistsError:
-        print("sample.json already exists.")
-    except:
-        print("Unable to write to file.")
-    else: 
-        print("Success! JSON written.")
+    jsonObj = json.dumps(data, indent=4) # converts python object to JSON-formatted string
+    # print(jsonObj)
+    if(jsonObj != "[]"):
+        try: 
+            with open("sample.json", "w") as outfile: 
+                outfile.write(jsonObj)
+        except FileExistsError:
+            print("sample.json already exists.")
+        except:
+            print("Unable to write to file.")
+        else: 
+            print("Success! JSON written.")
 
 # read JSON from a .json file
 def readJSON(path):
-    with open(path, 'r') as infile: 
-        data = json.load(infile)
-    return data
+    try: 
+        with open(path, 'r') as infile: 
+            data = json.load(infile)
+            # print("Data found by ReadJSON: ", data)
+        return data
+    except json.JSONDecodeError:
+        print("JSON is empty. Please put a pair of square brackets in the JSON file.")
+        return ""
+    except Exception as e:
+        print(f"ERROR: {e} for {path}")
+    return ""
 
 # create JSON string for a single word given its frequency and filepath
 def createJSONWord(word: str, freq: int, path: str):
@@ -38,22 +48,21 @@ def createJSONWord(word: str, freq: int, path: str):
 # can use this to overwrite the old copy of data with the new one, or create a new version separately
 def addWord(data, newWord):
 
-    # get word from JSON; will always be the value with key "word"
-    word = newWord["word"]
-    
-    # update data as needed 
-    for i in range(len(data)): # data is a list 
-        if data[i]["word"] == word: # if the current word in the list is the same as the word we're adding  
-            print(f"{word} is already in the dict.")
+    # get single word from JSON; will always be the value with key "word"
+    singleWord = newWord["word"]
+    # print(f"{singleWord} found in {newWord}")
 
-            # add a new line to the pages list 
-            data[i]["pages"].append(newWord["pages"][0]) # the "pages" will be an array with 0 elements 
-            return data 
-    
-    print(f"Need to add {word} to dict.")
-    data.append(newWord) # add ALL the data including frequency and location, along with the word 
+    # search entire existing JSON for this word
+    existingJSONWord = findWordInJSON(data, singleWord)
+    if(existingJSONWord == None):
+        print("Did not find an existing JSONWord in the JSON file for", singleWord)
         
-    return data 
+        # add a brand new word to the dictionary     
+        jsonArr = readJSON("sample.json") # get JSON from file (automatically converted to array of dicts)
+        jsonArr.append(newWord) # add new word to that JSON
+        writeJSON(jsonArr)
+        print()
+
 
 # searches for a string in a JSON list; returns all its data
 def findWordInJSON(data: list, word: str):
@@ -130,7 +139,7 @@ def removeSW(text):
         if w not in stopWords:
             result.append(w)
 
-    print("Result: ", result)
+    #print("Result: ", result)
     return result
 
 #bfs("Home", "toad.txt")

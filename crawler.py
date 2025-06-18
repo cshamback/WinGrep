@@ -18,14 +18,18 @@ class Crawler:
                 # print(f"ALERT: Found skippable directory {dirPath}. Skipping.")
                 continue # skip this directory 
 
+            # for now, we only need file names. 
+            # TODO: expand to include analysis of directory names
+                '''
             for dir in subDirs: 
                 if(dir not in files):
                     # print(f"Folder: {dir}")
-                    files = np.append(files, dir)
+                    files = np.append(files, f"{dirPath}/{dir}")
+                '''
 
             for filename in fileNames: 
                 # print(f"File: {filename}")
-                files = np.append(files, filename)
+                files = np.append(files, f"{dirPath}/{filename}")
 
         return files    
     
