@@ -40,12 +40,36 @@
             {
                 "path": "~/Downloads/sampleText.txt",
                 "freq": 1
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
             }
         ]
     },
     {
         "word": "brown",
         "pages": [
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
+            },
             {
                 "path": "~/Downloads/sampleText.txt",
                 "freq": 1
@@ -62,12 +86,36 @@
             {
                 "path": "~/Downloads/foxPic.png",
                 "freq": 1
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 2
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 2
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 2
             }
         ]
     },
     {
         "word": "jumped",
         "pages": [
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
+            },
             {
                 "path": "~/Downloads/sampleText.txt",
                 "freq": 1
@@ -80,6 +128,18 @@
             {
                 "path": "~/Downloads/sampleText.txt",
                 "freq": 1
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
             }
         ]
     },
@@ -89,20 +149,44 @@
             {
                 "path": "~/Downloads/sampleText.txt",
                 "freq": 2
-            }, 
+            },
             {
                 "path": "~/Documents/dogVetBill.pdf",
                 "freq": 3
-            }, 
+            },
             {
                 "path": "~/Downloads/dog.txt",
                 "freq": 45
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 2
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 2
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 2
             }
         ]
     },
     {
         "word": "ate",
         "pages": [
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
+            },
+            {
+                "path": "~/Downloads/sampleText.txt",
+                "freq": 1
+            },
             {
                 "path": "~/Downloads/sampleText.txt",
                 "freq": 1

@@ -75,10 +75,8 @@ writeJSON(data)
 #=============================================================================================================================================================================
 
 # Breadth-First Search used by crawler to traverse all dicts
-# target can be file or directory 
+# currently just finds a file or directory path
 def bfs(root, target):
-    # get list of children of root node
-    childrenList = os.listdir(root)
 
     for dirPath, subDirs, fileNames in os.walk(root):
         print(f"Directory: {dirPath}")
@@ -135,8 +133,4 @@ def removeSW(text):
     print("Result: ", result)
     return result
 
-print("Attempting BFS")
-bfs("Home", "vetBill.txt")
-
-print("Attempting BFS")
-bfs("Home", "Downloads")
+#bfs("Home", "toad.txt")

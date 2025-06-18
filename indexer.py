@@ -42,5 +42,5 @@ class Indexer:
     def analyzeName(self, name):
         pass
 
-indx = Indexer()
-indx.analyzeText("The quick brown fox jumped over his lazy dog. The dog ate the fox.", "~/Downloads/sampleText.txt")
+#indx = Indexer()
+#indx.analyzeText("The quick brown fox jumped over his lazy dog. The dog ate the fox.", "~/Downloads/sampleText.txt")
