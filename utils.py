@@ -23,8 +23,6 @@ def writeJSON(data):
             print("sample.json already exists.")
         except:
             print("Unable to write to file.")
-        else: 
-            print("Success! JSON written.")
 
 # read JSON from a .json file
 def readJSON(path):
@@ -46,30 +44,41 @@ def createJSONWord(word: str, freq: int, path: str):
 
 # add a new word to the existing JSON data: either add a new word to the array, or add to the Pages array of an existing word 
 # can use this to overwrite the old copy of data with the new one, or create a new version separately
-def addWord(data, newWord):
+def addWord(newWord):
+
+    jsonArr = readJSON("sample.json") # get JSON from file (automatically converted to array of dicts)
 
     # get single word from JSON; will always be the value with key "word"
     singleWord = newWord["word"]
-    # print(f"{singleWord} found in {newWord}")
+    existingJSONWord = findWordInJSON(jsonArr, singleWord) # search entire existing JSON for this word: existingJSONWord is an int
 
-    # search entire existing JSON for this word
-    existingJSONWord = findWordInJSON(data, singleWord)
-    if(existingJSONWord == None):
-        print("Did not find an existing JSONWord in the JSON file for", singleWord)
-        
-        # add a brand new word to the dictionary     
-        jsonArr = readJSON("sample.json") # get JSON from file (automatically converted to array of dicts)
+    if(existingJSONWord == None):   
         jsonArr.append(newWord) # add new word to that JSON
-        writeJSON(jsonArr)
-        print()
 
+    else: # if word is already in the json file
 
-# searches for a string in a JSON list; returns all its data
+        # check if path and freq are also already there
+        # this should happen rarely, if ever
+        for i in range(0, len(jsonArr[existingJSONWord]["pages"])): # iterate thru every page that word is on
+            if(newWord["pages"][0]["path"] in jsonArr[existingJSONWord]["pages"][i]["path"]):
+                return
+
+        # create new dict to add. format: {"path": "path string", "freq": n}
+        # format of newWord is {"word": word, "pages": [{"path": path, "freq": freq}]}
+        dataToInsert = {"path": newWord["pages"][0]["path"], "freq": newWord["pages"][0]["freq"]}
+
+        # append a dict containing the new word's path and frequency to the "pages" array for the given word
+        # GOD that's a lot of data access 
+        jsonArr[existingJSONWord]["pages"].append(dataToInsert)
+    
+    writeJSON(jsonArr) # write whatever changes we made to jsonArr to file
+
+# searches for a string in a JSON list; returns first index where it was found or None
 def findWordInJSON(data: list, word: str):
-    for item in data: # creates a copy, not a direct reference 
-        currWord = item["word"]
+    for i in range(0, len(data)):
+        currWord = data[i]["word"]
         if currWord == word: 
-            return item
+            return i
     return None
 
 """

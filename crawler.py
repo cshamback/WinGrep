@@ -3,6 +3,7 @@ import os
 
 class Crawler: 
     root = None
+    filesExplored = 0
 
     def __init__(self):
         self.root = self.findRoot()
@@ -10,9 +11,10 @@ class Crawler:
     # BFS all files starting at root, store paths in numpy arr
     def crawl(self): 
         files = np.empty((0,)) # empty 1D array
-        print(files)
 
         for dirPath, subDirs, fileNames in os.walk(self.root):
+            self.filesExplored = self.filesExplored + 1
+            
             # TODO: add configurable list of directory/file names to be ignored: can be "contains" or "ends with"
             if (dirPath.endswith("__pycache__") or ".git/objects" in dirPath):
                 # print(f"ALERT: Found skippable directory {dirPath}. Skipping.")

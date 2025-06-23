@@ -2,6 +2,8 @@ from utils import readJSON, writeJSON, createJSONWord, addWord, removeSW, remove
 import json
  
 class Indexer: 
+    wordsEncountered = 0
+
     def __init__(self):
         pass
     
@@ -54,14 +56,13 @@ class Indexer:
             else:
                 map[word] = 1
 
-        # update JSON
-        json = readJSON('sample.json')
+        #print("Usable words in", filepath, ":", len(map))
+        self.wordsEncountered = self.wordsEncountered + len(map)
         
+        # add every word/frequency pair to the mainMap
         for key, value in map.items():
             newWord = createJSONWord(key, value, filepath) # ENTIRE JSONWord
-            addWord(json, newWord)
-
-        writeJSON(json)
+            addWord(newWord) # takes JSON word and adds it to the MainMap automatically, if needed. Handles all file IO 
 
     # locate all human-readable words and update the JSON using only file names
     def analyzeName(self, name, filepath):
