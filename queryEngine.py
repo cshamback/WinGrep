@@ -12,24 +12,45 @@ class QueryEngine:
         queryString = removeAN(query)
         words = removeSW(queryString)
 
+        print("Processed query:", words)
+
         results = self.getWords(words) # returns a list (unordered)
-        results = self.orderWords(results) # returns a list (ordered) - 2D arr of path vs. words and frequencies
+        #results = self.orderWords(results) # returns a list (ordered) - 2D arr of path vs. words and frequencies
 
         return results
 
     # search thru JSON to get all results (including path and freq) belonging to words in the query 
     def getWords(self, words: list):
+        # TODO: allow a phrase to be searched for, like "import nltk", not just words
         results = []
 
         # search through JSON map to find results containing those words 
         self.json = readJSON('sample.json') # returns a list of dicts
 
-        for word in words:
-            wordData = findWordInJSON(self.json, word)
-            if wordData != None: 
-                # TODO: change this to format [[path, (word, frequency), (word, frequency), ...], ...]
-                
-                results.append(wordData) # creates a list of only words that are in the search
+        for word in words: # look at every word in the query 
+            wordIndex = findWordInJSON(self.json, word) # returns an index 
+            if wordIndex != None:           
+                wordFound = self.json[wordIndex] # json object with single word string and an array of pages/frequencies
+
+                for i in range(len(wordFound["pages"])):
+
+                    currentPage = wordFound["pages"][i] # each of these is a dict: {"path": "path string", "freq", n}
+                    currentPath = currentPage["path"]
+
+                    # search through results for the current path
+                    foundMatch = False
+                    for k in range(len(results)):
+                        if(results[k]["path"] == currentPath):
+                            results[k]["words"][wordFound["word"]] = wordFound["pages"][i]["freq"] # add word and its frequency to this path in the results
+
+                            foundMatch = True
+                            break
+                    if(foundMatch == False):
+                        # print("Did not find path", currentPath, "in search results. Appending now.")
+                        results.append({"path": currentPath, "words": {wordFound["word"]: wordFound["pages"][i]["freq"]}})
+
+        print("Search results:")
+        printList(results)
         return results
 
     def orderWords(self, words: list):
@@ -39,6 +60,3 @@ class QueryEngine:
         # [[path, (word, frequency), (word, frequency), ...], ...]
 
         return result
-    
-qe = QueryEngine()
-printList(qe.processQuery("Fox jumped over dog axe"))

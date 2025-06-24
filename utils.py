@@ -97,13 +97,13 @@ writeJSON(data)
 def bfs(root, target):
 
     for dirPath, subDirs, fileNames in os.walk(root):
-        print(f"Directory: {dirPath}")
+        #print(f"Directory: {dirPath}")
         if(target in subDirs): 
-            print(f"Target found: {dirPath}/{target}")
+            #print(f"Target found: {dirPath}/{target}")
             return dirPath
 
         for filename in fileNames: 
-            print(f"File: {filename}")
+            #print(f"File: {filename}")
 
             if(filename == target):
                 print(f"Target found in folder: {dirPath} Full path: {dirPath}/{target}")
