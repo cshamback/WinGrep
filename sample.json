@@ -205,6 +205,10 @@
             {
                 "path": "/workspaces/WinGrep/sample.json",
                 "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
             }
         ]
     },
@@ -2522,6 +2526,10 @@
             {
                 "path": "/workspaces/WinGrep/sample.json",
                 "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
             }
         ]
     },
@@ -2551,6 +2559,10 @@
             {
                 "path": "/workspaces/WinGrep/sample.json",
                 "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 2
             }
         ]
     },
@@ -2967,6 +2979,10 @@
             {
                 "path": "/workspaces/WinGrep/sample.json",
                 "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
             }
         ]
     },
@@ -3247,6 +3263,10 @@
             },
             {
                 "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
                 "freq": 1
             }
         ]
@@ -3876,6 +3896,10 @@
             },
             {
                 "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
                 "freq": 1
             }
         ]
@@ -4748,6 +4772,10 @@
             },
             {
                 "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
                 "freq": 1
             }
         ]
@@ -10074,6 +10102,10 @@
             {
                 "path": "/workspaces/WinGrep/crawler.py",
                 "freq": 4
+            },
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 4
             }
         ]
     },
@@ -10115,6 +10147,10 @@
             },
             {
                 "path": "/workspaces/WinGrep/crawler.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
                 "freq": 1
             }
         ]
@@ -10715,6 +10751,10 @@
             },
             {
                 "path": "/workspaces/WinGrep/crawler.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
                 "freq": 1
             }
         ]
@@ -12083,6 +12123,10 @@
             {
                 "path": "/workspaces/WinGrep/Home/Downloads/text.txt",
                 "freq": 2
+            },
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
             }
         ]
     },
@@ -16791,6 +16835,526 @@
         "pages": [
             {
                 "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "allow",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "phrase",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "searched",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "currentpagepath",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "foundmatch",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 2
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "false",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 2
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "k",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "rangelenresults",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "ifresultskpath",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "resultskwordswordfoundword",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "wordfoundpagesifreq",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 2
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "true",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 3
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "iffoundmatch",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printdid",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "appending",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "resultsappendpath",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "wordfoundword",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "unorderedresults",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "intfrequency",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "lenunorderedresults",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "currresult",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 2
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "unorderedresultsi",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "count",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 5
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "total",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "currresultwordsitems",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "intvalue",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "newresult",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 2
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "printnew",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "resultappendnewresult",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "sortedresult",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "lambda",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "x",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "x1",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 2
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "reverse",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 3
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "second",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "column",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "parameter",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "row0",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "row",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/queryEngine.py",
+                "freq": 1
+            },
+            {
+                "path": "/workspaces/WinGrep/sample.json",
+                "freq": 1
+            }
+        ]
+    },
+    {
+        "word": "qeprocessqueryiterate",
+        "pages": [
+            {
+                "path": "/workspaces/WinGrep/main.py",
                 "freq": 1
             },
             {

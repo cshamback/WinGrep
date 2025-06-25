@@ -15,7 +15,7 @@ class QueryEngine:
         print("Processed query:", words)
 
         results = self.getWords(words) # returns a list (unordered)
-        #results = self.orderWords(results) # returns a list (ordered) - 2D arr of path vs. words and frequencies
+        results = self.orderWords(results) # returns a list (ordered) - 2D arr of path vs. words and frequencies
 
         return results
 
@@ -48,15 +48,25 @@ class QueryEngine:
                     if(foundMatch == False):
                         # print("Did not find path", currentPath, "in search results. Appending now.")
                         results.append({"path": currentPath, "words": {wordFound["word"]: wordFound["pages"][i]["freq"]}})
-
-        print("Search results:")
-        printList(results)
         return results
 
-    def orderWords(self, words: list):
-        result = []
+    def orderWords(self, unorderedResults: list):
+        result = [] # 2D arr, each item is [{result}, int(frequency)]
         
-        # order results by number of unique words per page (highest at top)
-        # [[path, (word, frequency), (word, frequency), ...], ...]
+        # add results and the number of words in them to an array
+        for i in range(0, len(unorderedResults)):
+            currResult = unorderedResults[i]
 
-        return result
+            # count total words found in result 'words' dict
+            count = 0
+            for key, value in currResult["words"].items():
+                count = count + int(value)
+
+            newResult = [currResult, count]
+            #print("New result to add: ", newResult)
+            result.append(newResult)
+
+        # sort the results by number of words per result, most words first
+        result = sorted(result, key = lambda x: x[1], reverse = True) # sort by second column; to reverse add "reverse = True" as a parameter after "x[1]"
+            
+        return [row[0] for row in result]
